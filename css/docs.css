@@ -1,0 +1,259 @@
+/* Add additional stylesheets below
+-------------------------------------------------- */
+/*
+  Bootstrap's documentation styles
+  Special styles for presenting Bootstrap's documentation and examples
+*/
+
+/* Tweak navbar brand link to be super sleek
+-------------------------------------------------- */
+
+#panel .navbar {
+  font-size: 13px;
+}
+
+/* Change the docs' brand */
+#panel .navbar .brand {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 20px;
+  float: right;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+}
+#panel .navbar .brand:hover {
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
+  color: #fff;
+}
+#advanced span.trigger{display:block;position:absolute; background:url(../img/tm/pro_button.png) 0 0 no-repeat; width:42px; height:42px; right:0; top:41px; cursor:pointer;}
+#advanced span.trigger strong{display:block; background: url(../img/tm/plus-minus.png) 0 0 no-repeat; width:11px; height:11px; position:absolute; right:7px; bottom:24px; opacity:0;}
+#advanced.closed span.trigger strong{opacity:1; }
+#advanced span.trigger em{display:block; background: url(../img/tm/plus-minus.png) -11px 0 no-repeat; width:11px; height:11px; position:absolute; right:7px; bottom:24px;}
+#panel li {
+  line-height: 20px;
+}
+
+#panel .dropdown {
+  position: relative; 
+}
+#panel #advanced {
+  position: relative;
+}
+
+#panel .dropdown-toggle {
+  *margin-bottom: -3px;
+}
+
+#panel .dropdown-toggle:active,
+#panel .open .dropdown-toggle {
+  outline: 0;
+}
+
+#panel .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: top;
+  border-top: 4px solid #000000;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  content: "";
+}
+
+#panel .dropdown .caret {
+  margin-top: 8px;
+  margin-left: 2px;
+}
+
+#panel .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding;
+          background-clip: padding-box;  
+}
+
+#panel .dropdown-menu .divider {
+  *width: 100%;
+  height: 1px;
+  margin: 9px 1px;
+  *margin: -5px 0 5px;
+  overflow: hidden;
+  background-color: #e5e5e5;
+  border-bottom: 1px solid #ffffff;
+}
+
+#panel .dropdown-menu a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 20px;
+  color: #333333;
+  white-space: nowrap;
+}
+#panel .dropdown-menu li a {
+  padding-left: 15px;
+}
+#panel .dropdown-menu ul {
+  margin-left: 40px;
+}
+#panel .dropdown-menu ul li a {
+  padding-left: 5px;#advanced span.trigger{display:block;position:absolute; background:url(../img/tm/pro_button.png) 0 0 no-repeat; width:42px; height:42px; right:0; bottom:-42px; cursor:pointer;}
+#advanced span.trigger strong{display:block; background: url(../img/tm/plus-minus.png) 0 0 no-repeat; width:11px; height:11px; position:absolute; right:7px; bottom:24px; opacity:0;}
+#advanced.closed span.trigger strong{opacity:1;}
+#advanced span.trigger em{display:block; background: url(../img/tm/plus-minus.png) -11px 0 no-repeat; width:11px; height:11px; position:absolute; right:7px; bottom:24px;}
+}
+
+#advanced .dropdown-menu li li a {
+  display: inline-block\0/;
+}
+#panel .dropdown-menu li > a:hover,
+#panel .dropdown-menu li > a:focus,
+#panel .dropdown-submenu:hover > a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #0088cc;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+  background-repeat: repeat-x;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+}
+
+#panel .dropdown-menu .active > a,
+#panel .dropdown-menu .active > a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #0088cc;
+  background-color: #0081c2;
+  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+  background-repeat: repeat-x;
+  outline: 0;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+}
+
+#panel .dropdown-menu .disabled > a,
+#panel .dropdown-menu .disabled > a:hover {
+  color: #999999;
+}
+
+#panel .dropdown-menu .disabled > a:hover {
+  text-decoration: none;
+  cursor: default;
+  background-color: transparent;
+}
+
+#panel .open {
+  *z-index: 1000;
+}
+
+#panel .open > .dropdown-menu {
+  display: block;
+}
+
+#panel .pull-right > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+#panel .dropup .caret,
+#panel .navbar-fixed-bottom .dropdown .caret {
+  border-top: 0;
+  border-bottom: 4px solid #000000;
+  content: "\2191";
+}
+
+#panel .dropup .dropdown-menu,
+#panel .navbar-fixed-bottom .dropdown .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 1px;
+}
+#panel .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
+  border-top-color: #999999;
+  border-bottom-color: #999999;
+}
+#panel .navbar-inverse .nav li.dropdown.open > .dropdown-toggle .caret,
+#panel .navbar-inverse .nav li.dropdown.active > .dropdown-toggle .caret,
+#panel .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+#panel .navbar .nav > li > a {
+  padding: 10px 15px;
+}
+@media (min-width: 200px) and (max-width: 979px) {
+  #panel #advanced {
+    position: static;
+  }
+  #panel #advanced span.trigger {
+    display: none;
+  }
+  #panel .navbar-fixed-top {
+    margin-bottom: 0;
+  }
+  #panel .navbar-inner {
+    padding: 0 5px !important;
+  }
+ #panel .navbar .brand {
+    float: left;
+    margin-left: 10px;
+  }
+  #panel .navbar .nav > li > a {
+    padding: 9px 15px;
+  }
+  #panel .dropdown-menu {
+    position: static;
+    display: block;
+    border-radius:0px;
+    background: none;
+    border:none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    width: 100%;
+  }
+    #panel .dropdown-menu li a {
+      font-weight: bold;
+      font-size: 13px;
+      color: #555;
+    }
+    #panel .dropdown-menu li {
+      padding:5px 0 5px 15px;
+    }
+    #panel .navbar-fixed-top, .navbar-fixed-bottom {
+      margin: 0 !important;
+    }
+}
