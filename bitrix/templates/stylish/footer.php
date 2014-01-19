@@ -29,7 +29,14 @@ IncludeTemplateLangFile(__FILE__);
             <li><a href="index-4.html">styles</a>|</li>
             <li><a href="index-5.html">Contacts</a></li>
         </ul>
-      	Stylish   &copy;  2013  |   <a href="http://кофедизайн.рф/">Разработано с удовольствием</a> <!-- {%FOOTER_LINK} -->
+<?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
+	"AREA_FILE_SHOW" => "file",
+	"PATH" => SITE_TEMPLATE_PATH."/include/copyright.php",
+	"EDIT_TEMPLATE" => ""
+	),
+	false
+);?> 
+ <!-- {%FOOTER_LINK} -->
       </div>
     </div>
    </div>
