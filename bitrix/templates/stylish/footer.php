@@ -1,5 +1,8 @@
 
 
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+IncludeTemplateLangFile(__FILE__);
+?>
 
     </div>        
   </div>
@@ -31,6 +34,6 @@
     </div>
    </div>
 </footer>
-<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="<?SITE_TEMPLATE_PATH?>/js/bootstrap.js"></script>
 </body>
 </html>
