@@ -1,1 +1,1 @@
-﻿E-mail: <a href="a@coffeediz.ru" >a@coffeediz.ru</a>
+E-mail: <a href="a@coffeediz.ru" >a@coffeediz.ru</a>
