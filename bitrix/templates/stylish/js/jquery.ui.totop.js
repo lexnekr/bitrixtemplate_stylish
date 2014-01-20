@@ -1,4 +1,4 @@
-(function($){
+﻿(function($){
 	$.fn.UItoTop = function(options) {
 
  		var defaults = {

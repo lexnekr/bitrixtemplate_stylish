@@ -1,8 +1,8 @@
-<?
+﻿<?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("keywords", "Ключевые слова");
-$APPLICATION->SetPageProperty("description", "Описание");
-$APPLICATION->SetTitle("Главная страница");
+$APPLICATION->SetPageProperty("keywords", "РљР»СЋС‡РµРІС‹Рµ СЃР»РѕРІР°");
+$APPLICATION->SetPageProperty("description", "РћРїРёСЃР°РЅРёРµ");
+$APPLICATION->SetTitle("Р“Р»Р°РІРЅР°СЏ СЃС‚СЂР°РЅРёС†Р°");
 ?>
     	<div class="span8">
         	<div class="clearfix cols-1">
@@ -61,7 +61,7 @@ $APPLICATION->SetTitle("Главная страница");
                 </li>
             </ul>
             <h4 class="indent-1">testimonials:</h4>
-			<p class="p1">Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada.�</p>
+			<p class="p1">"Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada."</p>
             <span class="clr"><strong>Mark Priston</strong>, <a href="#" class="link-2">demolink.org</a></span>
         </div>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

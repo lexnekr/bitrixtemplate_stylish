@@ -1,4 +1,4 @@
-//forms
+﻿//forms
 ;(function($){
 	$.fn.forms=function(o){
 		return this.each(function(){
