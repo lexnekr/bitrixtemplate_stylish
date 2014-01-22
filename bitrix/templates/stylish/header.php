@@ -158,13 +158,16 @@ false
             </div>
          </div>   
     </div>
-    <div class="slider">
-    <div class="camera_wrap">
-        <div data-src="<?=SITE_TEMPLATE_PATH?>/img/slide1.jpg"></div>
-        <div data-src="<?=SITE_TEMPLATE_PATH?>/img/slide2.jpg"></div>
-        <div data-src="<?=SITE_TEMPLATE_PATH?>/img/slide3.jpg"></div>
-    </div>
-</div>
+
+<?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	Array(
+		"AREA_FILE_SHOW" => "page",
+		"AREA_FILE_SUFFIX" => "slider",
+		"EDIT_TEMPLATE" => ""
+	)
+);?>
 </header>
 
 <section id="content" class="main-content">
