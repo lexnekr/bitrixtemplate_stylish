@@ -69,12 +69,50 @@ $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/jquery.ui.totop.js");
         	<div class="span12">
             	<div class="header-block clearfix">
                     <div class="clearfix header-block-pad">
-                        <h1 class="brand"><a href="index.html"><img src="<?=SITE_TEMPLATE_PATH?>/img/logo.png" alt=""></a><span>Fashion brand</span></h1>
+                        <h1 class="brand"><a href="index.html">
+<?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	Array(
+		"AREA_FILE_SHOW" => "file",
+		"PATH" => SITE_TEMPLATE_PATH."/include/logo.php",
+		"EDIT_TEMPLATE" => ""
+	),
+false
+);?>
+</a><span>
+<?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	Array(
+		"AREA_FILE_SHOW" => "file",
+		"PATH" => SITE_TEMPLATE_PATH."/include/slogan.php",
+		"EDIT_TEMPLATE" => ""
+	),
+false
+);?>
+</span></h1>
                         <form id="search-form" action="search.php" method="GET" accept-charset="utf-8" class="navbar-form" >
                             <input type="text" name="s" onBlur="if(this.value=='') this.value=''" onFocus="if(this.value =='' ) this.value=''"  >
                             <a href="#" onClick="document.getElementById('search-form').submit()"></a>
                         </form>
-                        <span class="contacts">Call Us Toll Free:  <span>+1 234 567 89 90</span><br>E-mail: <a href="#">company@demolink.org</a></span>
+                        <span class="contacts">
+<?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
+	"AREA_FILE_SHOW" => "file",
+	"PATH" => SITE_TEMPLATE_PATH."/include/phone.php",
+	"EDIT_TEMPLATE" => ""
+	),
+	false
+);?>
+<br>
+<?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
+	"AREA_FILE_SHOW" => "file",
+	"PATH" => SITE_TEMPLATE_PATH."/include/E-mail.php",
+	"EDIT_TEMPLATE" => ""
+	),
+	false
+);?> 
+</span>
                     </div>
                     <div class="navbar navbar_ clearfix">
                         <div class="navbar-inner navbar-inner_">
@@ -106,10 +144,13 @@ $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/jquery.ui.totop.js");
                                     </ul>
                                 </div>
                                 <ul class="social-icons">
-                                    <li><a href="#"><img src="<?=SITE_TEMPLATE_PATH?>/img/icon-1.png" alt=""></a></li>
-                                    <li><a href="#"><img src="<?=SITE_TEMPLATE_PATH?>/img/icon-2.png" alt=""></a></li>
-                                    <li><a href="#"><img src="<?=SITE_TEMPLATE_PATH?>/img/icon-3.png" alt=""></a></li>
-                                    <li><a href="#"><img src="<?=SITE_TEMPLATE_PATH?>/img/icon-4.png" alt=""></a></li>
+<?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
+	"AREA_FILE_SHOW" => "file",
+	"PATH" => SITE_TEMPLATE_PATH."/include/social-icons.php",
+	"EDIT_TEMPLATE" => ""
+	),
+	false
+);?> 
                                 </ul>
                             </div>
                         </div>
