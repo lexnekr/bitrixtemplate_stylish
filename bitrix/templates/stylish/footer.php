@@ -29,18 +29,15 @@ IncludeTemplateLangFile(__FILE__);
             <li><a href="index-4.html">styles</a>|</li>
             <li><a href="index-5.html">Contacts</a></li>
         </ul>
-<?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
-	"AREA_FILE_SHOW" => "file",
-	"PATH" => SITE_TEMPLATE_PATH."/include/copyright.php",
-	"EDIT_TEMPLATE" => ""
-	),
-	false
-);?> 
- <!-- {%FOOTER_LINK} -->
+      	Stylish   &copy;  2013  |   <a href="http://кофедизайн.рф/">Разработано с удовольствием</a> <!-- {%FOOTER_LINK} -->
       </div>
     </div>
    </div>
 </footer>
-<script type="text/javascript" src="<?SITE_TEMPLATE_PATH?>/js/bootstrap.js"></script>
+
+
+
+<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/bootstrap.js"></script>
+<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/superfish.js"></script>
 </body>
 </html>

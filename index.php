@@ -1,21 +1,21 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("keywords", "–ö–ª—é—á–µ–≤—ã–µ —Å–ª–æ–≤–∞");
-$APPLICATION->SetPageProperty("description", "–û–ø–∏—Å–∞–Ω–∏–µ");
-$APPLICATION->SetTitle("–ì–ª–∞–≤–Ω–∞—è —Å—Ç—Ä–∞–Ω–∏—Ü–∞");
+$APPLICATION->SetPageProperty("keywords", " Î˛˜Â‚˚Â ÒÎÓ‚‡");
+$APPLICATION->SetPageProperty("description", "ŒÔËÒ‡ÌËÂ");
+$APPLICATION->SetTitle("√Î‡‚Ì‡ˇ ÒÚ‡ÌËˆ‡");
 ?>
     	<div class="span8">
         	<div class="clearfix cols-1">
                 <div class="span4 left-0">
                     <h4 class="indent-2">Welcome</h4>
                     <p class="lead">Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. </p>
-                    <figure class="img-indent"><img src="img/page1-img1.jpg" alt="" class="img-radius"></figure>
+					<figure class="img-indent"><img src="<?=SITE_TEMPLATE_PATH?>/img/page1-img1.jpg" alt="" class="img-radius"></figure>
                     Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. 
                 </div>
                 <div class="span4">
                     <h4 class="indent-2">What We Do</h4>
                     <p class="lead">Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. </p>
-                    <figure class="img-indent"><img src="img/page1-img2.jpg" alt="" class="img-radius"></figure>
+                    <figure class="img-indent"><img src="<?=SITE_TEMPLATE_PATH?>/img/page1-img2.jpg" alt="" class="img-radius"></figure>
                     Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. 
                 </div>
             </div>
@@ -61,7 +61,7 @@ $APPLICATION->SetTitle("–ì–ª–∞–≤–Ω–∞—è —Å—Ç—Ä–∞–Ω–∏—Ü–∞");
                 </li>
             </ul>
             <h4 class="indent-1">testimonials:</h4>
-			<p class="p1">Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada.ÔøΩ</p>
+			<p class="p1">Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada.î</p>
             <span class="clr"><strong>Mark Priston</strong>, <a href="#" class="link-2">demolink.org</a></span>
         </div>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
