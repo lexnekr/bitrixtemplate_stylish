@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
 This file is a wrapper, for use in PHP environments, which serves PIE.htc using the
 correct content-type, so that IE will recognize it as a behavior.  Simply specify the

@@ -1,4 +1,4 @@
-<?
+﻿<?
 $arStyles = array(
 );
 return $arStyles;
