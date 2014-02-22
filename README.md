@@ -7,6 +7,7 @@ HTML Шаблон (Bootstrap) интегрирован Задойным А.В. �
 * [1 Урок](http://кофедизайн.рф/information/integratsiya_adaptivnogo_bootstrap_shablona_sayta_v_1C_Bitrix_po_shagam_urok_1/) - Первичная интеграция (статика)
 * [2 Урок](http://кофедизайн.рф/information/integratsiya_adaptivnogo_bootstrap_shablona_sayta_v_1s_bitriks_po_shagam_urok_2/) - Включаемые области
 * [3 Урок](http://кофедизайн.рф/information/integratsiya_adaptivnogo_bootstrap_v_1C_bitrix_po_shagam_urok_0/) - Слайдер
+* [4 Урок](http://кофедизайн.рф/information/integration_of_adaptive_bootstrap_site_template_in_1C-Bitrix_steps_lesson_4/) - Форма поиска для шапки
 
 
 ![Alt text](https://raw2.github.com/lexnekr/bitrixtemplate_stylish/master/bitrix/templates/stylish/screen.gif)
@@ -14,7 +15,8 @@ HTML Шаблон (Bootstrap) интегрирован Задойным А.В. �
 
 Входящие в шаблон сайта шаблоны компонетов
 -------
-* Компонент news.list - шаблон main_slider
+* Компонент news.list - шаблон main_slider (слайдер баннеров из инфоблока)
+* Компонент bitrix:search.form - шаблон top форма поиска для шапки)
 
 
 Входящие в шаблон Демо-Материалы (инфоблоки)
@@ -35,4 +37,5 @@ HTML Шаблон (Bootstrap) интегрирован Задойным А.В. �
 
 Кодировка шаблона
 -------
-В рамках issue #3 кодировка проекта приведена к единому формату CP-1251 (WIN1251)
+* Ветка Master - CP-1251
+* Ветка UTF8 - UTF-8
