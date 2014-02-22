@@ -69,7 +69,7 @@ $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/jquery.ui.totop.js");
         	<div class="span12">
             	<div class="header-block clearfix">
                     <div class="clearfix header-block-pad">
-                        <h1 class="brand"><a href="index.html">
+                        <h1 class="brand"><a href="/">
 <?$APPLICATION->IncludeComponent(
 	"bitrix:main.include",
 	"",
@@ -92,10 +92,11 @@ false
 false
 );?>
 </span></h1>
-                        <form id="search-form" action="search.php" method="GET" accept-charset="utf-8" class="navbar-form" >
-                            <input type="text" name="s" onBlur="if(this.value=='') this.value=''" onFocus="if(this.value =='' ) this.value=''"  >
-                            <a href="#" onClick="document.getElementById('search-form').submit()"></a>
-                        </form>
+<?$APPLICATION->IncludeComponent("bitrix:search.form", "top", Array(
+	"PAGE" => "#SITE_DIR#search/",	// Страница выдачи результатов поиска (доступен макрос #SITE_DIR#)
+	),
+	false
+);?>
                         <span class="contacts">
 <?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
 	"AREA_FILE_SHOW" => "file",
