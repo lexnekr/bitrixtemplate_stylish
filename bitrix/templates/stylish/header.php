@@ -115,47 +115,31 @@ false
 );?> 
 </span>
                     </div>
-                    <div class="navbar navbar_ clearfix">
-                        <div class="navbar-inner navbar-inner_">
-                            <div class="container">
-                                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse_">MENU</a>                                                   
-                                <div class="nav-collapse nav-collapse_ collapse">
-                                    <ul class="nav sf-menu">
-                                      <li class="active li-first"><a href="index.html"><em class="hidden-phone"></em><span class="visible-phone">Home</span></a></li>
-                                      <li class="sub-menu"><a href="index-1.html">about</a>
-                                        <ul>
-                                          <li><a href="#">Welcome Message</a></li>
-                                          <li class="sub-menu"><a href="#">Company Profile</a>
-                                            <ul>
-                                              <li><a href="#">Our Capabilities</a></li>
-                                              <li><a href="#">Advantages</a></li>
-                                              <li><a href="#">Work Team</a></li>
-                                              <li><a href="#">Partnership</a></li>
-                                              <li><a href="#">Support</a></li>
-                                            </ul>
-                                          </li>
-                                          <li><a href="#">Our History</a></li>
-                                          <li><a href="#">Testimonials</a></li>
-                                        </ul>
-                                      </li>
-                                      <li><a href="index-2.html">services</a></li>
-                                      <li><a href="index-3.html">collections</a></li>
-                                      <li><a href="index-4.html">styles</a></li>
-                                      <li><a href="index-5.html">contacts</a></li>
-                                    </ul>
-                                </div>
-                                <ul class="social-icons">
-<?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
-	"AREA_FILE_SHOW" => "file",
-	"PATH" => SITE_TEMPLATE_PATH."/include/social-icons.php",
-	"EDIT_TEMPLATE" => ""
+					
+					
+<?$APPLICATION->IncludeComponent("bitrix:menu", "top", array(
+	"ROOT_MENU_TYPE" => "top",
+	"MENU_CACHE_TYPE" => "N",
+	"MENU_CACHE_TIME" => "86400",
+	"MENU_CACHE_USE_GROUPS" => "Y",
+	"MENU_CACHE_GET_VARS" => array(
+	),
+	"MAX_LEVEL" => "3",
+	"CHILD_MENU_TYPE" => "subtop",
+	"USE_EXT" => "N",
+	"DELAY" => "N",
+	"ALLOW_MULTI_SELECT" => "N",
+	"USE_SOCIAL_ICONS" => "Y",
+	"TOP_MENU_NAME" => "Меню",
+	"SOCIAL_ICONS_TWITTER" => "https://twitter.com/lexnekr",
+	"SOCIAL_ICONS_FACEBOOK" => "",
+	"SOCIAL_ICONS_GOOGLE_PLUS" => "https://plus.google.com/u/0/112316725504958628550/posts",
+	"SOCIAL_ICONS_RSS" => "http://кофедизайн.рф/information/rss/",
+	"SOCIAL_ICONS_GITHUB" => "https://github.com/lexnekr/bitrixtemplate_stylish"
 	),
 	false
-);?> 
-                                </ul>
-                            </div>
-                        </div>
-                     </div>   
+);?>					
+ 
                 </div>
             </div>
          </div>   

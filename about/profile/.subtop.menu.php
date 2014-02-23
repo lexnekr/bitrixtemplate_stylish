@@ -1,0 +1,39 @@
+﻿<?
+$aMenuLinks = Array(
+	Array(
+		"Our Capabilities", 
+		"#", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Advantages", 
+		"#", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Work Team", 
+		"#", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Partnership", 
+		"#", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Support", 
+		"#", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
