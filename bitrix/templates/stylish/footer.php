@@ -21,14 +21,21 @@ IncludeTemplateLangFile(__FILE__);
         </form>
     </div>
     <div class="span8 float">
-      	<ul class="footer-menu">
-        	<li><a href="index.html" class="current">Home Page</a>|</li>
-            <li><a href="index-1.html">about</a>|</li>
-            <li><a href="index-2.html">Services</a>|</li>
-            <li><a href="index-3.html">collections</a>|</li>
-            <li><a href="index-4.html">styles</a>|</li>
-            <li><a href="index-5.html">Contacts</a></li>
-        </ul>
+<?$APPLICATION->IncludeComponent("bitrix:menu", "bottom", array(
+	"ROOT_MENU_TYPE" => "bottom",
+	"MENU_CACHE_TYPE" => "A",
+	"MENU_CACHE_TIME" => "86400",
+	"MENU_CACHE_USE_GROUPS" => "Y",
+	"MENU_CACHE_GET_VARS" => array(
+	),
+	"MAX_LEVEL" => "1",
+	"CHILD_MENU_TYPE" => "left",
+	"USE_EXT" => "N",
+	"DELAY" => "N",
+	"ALLOW_MULTI_SELECT" => "N"
+	),
+	false
+);?>
 <?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
 	"AREA_FILE_SHOW" => "file",
 	"PATH" => SITE_TEMPLATE_PATH."/include/copyright.php",
