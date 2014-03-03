@@ -12,13 +12,17 @@ IncludeTemplateLangFile(__FILE__);
    <div class="container">
     <div class="row">
       <div class="span4 float2">
-        <form id="newsletter" method="post" >
-            <label>Newsletter</label>
-            <div class="clearfix">
-                <input type="text" onFocus="if(this.value =='Enter e-mail here' ) this.value=''" onBlur="if(this.value=='') this.value='Enter e-mail here'" value="Enter e-mail here" >
-                <a href="#" onClick="document.getElementById('newsletter').submit()" class="btn btn_">subscribe</a>
-            </div>
-        </form>
+<?$APPLICATION->IncludeComponent("asd:subscribe.quick.form", "bottom", array(
+	"RUBRICS" => array(
+		0 => "1",
+	),
+	"SHOW_RUBRICS" => "N",
+	"INC_JQUERY" => "N",
+	"NOT_CONFIRM" => "Y",
+	"SUBSCRIBE_FORM_NAME" => "Подписка на новости"
+	),
+	false
+);?>
     </div>
     <div class="span8 float">
 <?$APPLICATION->IncludeComponent("bitrix:menu", "bottom", array(

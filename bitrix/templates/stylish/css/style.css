@@ -996,7 +996,7 @@ form#newsletter input:focus {
 }
 form#newsletter a.btn_ {
   margin-top: 0;
-  width: 91px;
+  width: 111px;
   text-align: center;
   padding-right: 0;
   padding-left: 0;
@@ -1042,7 +1042,7 @@ form#newsletter label {
     font-size: 28px;
   }
   form#newsletter input {
-    width: 224px;
+    width: 204px;
   }
   .lists-width2 {
     margin-left: -30px;
