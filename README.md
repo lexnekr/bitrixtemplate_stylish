@@ -9,7 +9,7 @@ HTML Шаблон (Bootstrap) интегрирован Задойным А.В. �
 * [3 Урок](http://кофедизайн.рф/information/integratsiya_adaptivnogo_bootstrap_v_1C_bitrix_po_shagam_urok_0/) - Слайдер
 * [4 Урок](http://кофедизайн.рф/information/integration_of_adaptive_bootstrap_site_template_in_1C-Bitrix_steps_lesson_4/) - Форма поиска для шапки
 * [5 Урок](http://кофедизайн.рф/information/integration_of_adaptive_bootstrap_site_template_in_1C-Bitrix_steps_lesson_5/) - Меню
-* [5 Урок](http://кофедизайн.рф/information/integration_of_adaptive_bootstrap_site_template_in_1C-Bitrix_steps_lesson_6/) - Форма подписки (3 методами)
+* [6 Урок](http://кофедизайн.рф/information/integration_of_adaptive_bootstrap_site_template_in_1C-Bitrix_steps_lesson_6/) - Форма подписки (3 методами)
 
 ![Alt text](https://raw2.github.com/lexnekr/bitrixtemplate_stylish/master/bitrix/templates/stylish/screen.gif)
 
