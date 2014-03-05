@@ -44,6 +44,46 @@ $arTemplateParameters["SOCIAL_ICONS_GITHUB"] = array(
 		"TYPE" => "HTML",
 		"DEFAULT" => "",
 	);
+$arTemplateParameters["SOCIAL_ICONS_YARU"] = array(
+		"NAME" => GetMessage("SOCIAL_ICONS_YARU"),
+		"TYPE" => "HTML",
+		"DEFAULT" => "",
+	);
+$arTemplateParameters["SOCIAL_ICONS_VK"] = array(
+		"NAME" => GetMessage("SOCIAL_ICONS_VK"),
+		"TYPE" => "HTML",
+		"DEFAULT" => "",
+	);
+$arTemplateParameters["SOCIAL_ICONS_LIVEJOURNAL"] = array(
+		"NAME" => GetMessage("SOCIAL_ICONS_LIVEJOURNAL"),
+		"TYPE" => "HTML",
+		"DEFAULT" => "",
+	);
+$arTemplateParameters["SOCIAL_ICONS_ODNOKLASSNIKI"] = array(
+		"NAME" => GetMessage("SOCIAL_ICONS_ODNOKLASSNIKI"),
+		"TYPE" => "HTML",
+		"DEFAULT" => "",
+	);
+$arTemplateParameters["SOCIAL_ICONS_MAIL"] = array(
+		"NAME" => GetMessage("SOCIAL_ICONS_MAIL"),
+		"TYPE" => "HTML",
+		"DEFAULT" => "",
+	);
+$arTemplateParameters["SOCIAL_ICONS_YOUTUBE"] = array(
+		"NAME" => GetMessage("SOCIAL_ICONS_YOUTUBE"),
+		"TYPE" => "HTML",
+		"DEFAULT" => "",
+	);
+$arTemplateParameters["SOCIAL_ICONS_HTML5"] = array(
+		"NAME" => GetMessage("SOCIAL_ICONS_HTML5"),
+		"TYPE" => "HTML",
+		"DEFAULT" => "",
+	);
+$arTemplateParameters["SOCIAL_ICONS_INSTAGRAM"] = array(
+		"NAME" => GetMessage("SOCIAL_ICONS_INSTAGRAM"),
+		"TYPE" => "HTML",
+		"DEFAULT" => "",
+	);
 	
 }
 
