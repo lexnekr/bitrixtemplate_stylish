@@ -8,4 +8,12 @@ $MESS ['SOCIAL_ICONS_FACEBOOK'] = "URL дл€ Facebook";
 $MESS ['SOCIAL_ICONS_GOOGLE_PLUS'] = "URL дл€ Google+";
 $MESS ['SOCIAL_ICONS_GITHUB'] = "URL дл€ Github";
 $MESS ['SOCIAL_ICONS_RSS'] = "URL дл€ RSS";
+$MESS ['SOCIAL_ICONS_YARU'] = "URL дл€ я.ру";
+$MESS ['SOCIAL_ICONS_VK'] = "URL дл€ ¬контакте";
+$MESS ['SOCIAL_ICONS_LIVEJOURNAL'] = "URL дл€ LiveJournal";
+$MESS ['SOCIAL_ICONS_ODNOKLASSNIKI'] = "URL дл€ Odnoklassniki.ru";
+$MESS ['SOCIAL_ICONS_MAIL'] = "URL дл€ Mail.ru";
+$MESS ['SOCIAL_ICONS_YOUTUBE'] = "URL дл€ YouTube";
+$MESS ['SOCIAL_ICONS_HTML5'] = "URL дл€ HTML5";
+$MESS ['SOCIAL_ICONS_INSTAGRAM'] = "URL дл€ Instagram";
 ?>

@@ -60,12 +60,20 @@ foreach($arResult as $arItem):?>
 
 <?if ($arParams["USE_SOCIAL_ICONS"] == Y):?>
 <ul class="social-icons">
-	<?if (!empty($arParams["SOCIAL_ICONS_TWITTER"])):?><li><a href="<?=$arParams["SOCIAL_ICONS_TWITTER"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/components/bitrix/menu/top/images/icon-1.png" alt="Twitter"></a></li><?endif?>
-	<?if (!empty($arParams["SOCIAL_ICONS_FACEBOOK"])):?><li><a href="<?=$arParams["SOCIAL_ICONS_FACEBOOK"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/components/bitrix/menu/top/images/icon-2.png" alt="Facebook"></a></li><?endif?>
-	<?if (!empty($arParams["SOCIAL_ICONS_GOOGLE_PLUS"])):?><li><a href="<?=$arParams["SOCIAL_ICONS_GOOGLE_PLUS"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/components/bitrix/menu/top/images/icon-3.png" alt="Google+"></a></li><?endif?>
-	<?if (!empty($arParams["SOCIAL_ICONS_RSS"])):?><li><a href="<?=$arParams["SOCIAL_ICONS_RSS"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/components/bitrix/menu/top/images/icon-4.png" alt="RSS"></a></li><?endif?>
-	<?if (!empty($arParams["SOCIAL_ICONS_GITHUB"])):?><li><a href="<?=$arParams["SOCIAL_ICONS_GITHUB"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/components/bitrix/menu/top/images/icon-5.png" alt="Github"></a></li><?endif?>
-</ul>
+	<?if (!empty($arParams["SOCIAL_ICONS_TWITTER"])):?><li><a target="_blank" href="<?=$arParams["SOCIAL_ICONS_TWITTER"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/components/bitrix/menu/top/images/icon-1.png" alt="Twitter"></a></li><?endif?>
+	<?if (!empty($arParams["SOCIAL_ICONS_FACEBOOK"])):?><li><a target="_blank" href="<?=$arParams["SOCIAL_ICONS_FACEBOOK"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/components/bitrix/menu/top/images/icon-2.png" alt="Facebook"></a></li><?endif?>
+	<?if (!empty($arParams["SOCIAL_ICONS_GOOGLE_PLUS"])):?><li><a target="_blank" href="<?=$arParams["SOCIAL_ICONS_GOOGLE_PLUS"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/components/bitrix/menu/top/images/icon-3.png" alt="Google+"></a></li><?endif?>
+	<?if (!empty($arParams["SOCIAL_ICONS_RSS"])):?><li><a target="_blank" href="<?=$arParams["SOCIAL_ICONS_RSS"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/components/bitrix/menu/top/images/icon-4.png" alt="RSS"></a></li><?endif?>
+	<?if (!empty($arParams["SOCIAL_ICONS_GITHUB"])):?><li><a target="_blank" href="<?=$arParams["SOCIAL_ICONS_GITHUB"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/components/bitrix/menu/top/images/icon-5.png" alt="Github"></a></li><?endif?>
+	<?if (!empty($arParams["SOCIAL_ICONS_YARU"])):?><li><a target="_blank" href="<?=$arParams["SOCIAL_ICONS_YARU"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/components/bitrix/menu/top/images/icon-6.png" alt="Я.ру"></a></li><?endif?>
+	<?if (!empty($arParams["SOCIAL_ICONS_VK"])):?><li><a target="_blank" href="<?=$arParams["SOCIAL_ICONS_VK"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/components/bitrix/menu/top/images/icon-7.png" alt="Вконтакте"></a></li><?endif?>
+	<?if (!empty($arParams["SOCIAL_ICONS_LIVEJOURNAL"])):?><li><a target="_blank" href="<?=$arParams["SOCIAL_ICONS_LIVEJOURNAL"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/components/bitrix/menu/top/images/icon-8.png" alt="Живой Журнал"></a></li><?endif?>
+	<?if (!empty($arParams["SOCIAL_ICONS_ODNOKLASSNIKI"])):?><li><a target="_blank" href="<?=$arParams["SOCIAL_ICONS_ODNOKLASSNIKI"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/components/bitrix/menu/top/images/icon-9.png" alt="Одноклассники"></a></li><?endif?>
+	<?if (!empty($arParams["SOCIAL_ICONS_MAIL"])):?><li><a target="_blank" href="<?=$arParams["SOCIAL_ICONS_MAIL"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/components/bitrix/menu/top/images/icon-10.png" alt="Mail.ru"></a></li><?endif?>
+	<?if (!empty($arParams["SOCIAL_ICONS_YOUTUBE"])):?><li><a target="_blank" href="<?=$arParams["SOCIAL_ICONS_YOUTUBE"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/components/bitrix/menu/top/images/icon-11.png" alt="YouTube"></a></li><?endif?>
+	<?if (!empty($arParams["SOCIAL_ICONS_HTML5"])):?><li><a target="_blank" href="<?=$arParams["SOCIAL_ICONS_HTML5"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/components/bitrix/menu/top/images/icon-12.png" alt="HTML5"></a></li><?endif?>
+	<?if (!empty($arParams["SOCIAL_ICONS_INSTAGRAM"])):?><li><a target="_blank" href="<?=$arParams["SOCIAL_ICONS_INSTAGRAM"]?>"><img src="<?=SITE_TEMPLATE_PATH?>/components/bitrix/menu/top/images/icon-13.png" alt="Instagram"></a></li><?endif?>
+	</ul>
 <?endif?>
 
 
