@@ -1,0 +1,23 @@
+TYPE;CLICKABLE;SORT;IMAGE;IMAGE_WIDTH;IMAGE_HEIGHT;IMAGE_HR;IMAGE_LANG;TYPING
+S;Y;100;smile_smile.png;32;32;Y;SMILE_SMILE;:) :-)
+S;Y;105;smile_wink.png;32;32;Y;SMILE_WINK;";) ;-)"
+S;Y;110;smile_biggrin.png;32;32;Y;SMILE_BIGGRIN;:D :-D
+S;Y;115;smile_cool.png;32;32;Y;SMILE_COOL;8) 8-)
+S;Y;120;smile_sad.png;32;32;Y;SMILE_SAD;:( :-(
+S;Y;125;smile_neutral.png;32;32;Y;SMILE_NEUTRAL;:| :-|
+S;Y;130;smile_redface.png;32;32;Y;SMILE_REDFACE;:oops:
+S;Y;135;smile_cry.png;32;32;Y;SMILE_CRY;:cry: :~(
+S;Y;140;smile_evil.png;32;32;Y;SMILE_EVIL;:evil: >:-<
+S;Y;145;smile_eek.png;32;32;Y;SMILE_EEK;:o :-o :shock:
+S;Y;150;smile_confuse.png;32;32;Y;SMILE_CONFUSE;:/ :-/
+S;Y;155;smile_kiss.png;32;32;Y;SMILE_KISS;:{} :-{}
+S;Y;160;smile_idea.png;32;32;Y;SMILE_IDEA;:idea:
+S;Y;165;smile_question.png;32;32;Y;SMILE_QUESTION;:?:
+S;Y;170;smile_exclaim.png;32;32;Y;SMILE_EXCLAIM;:!:
+I;Y;175;icon1.gif;15;15;N;ICON_NOTE;
+I;Y;180;icon2.gif;15;15;N;ICON_DIRRECTION;
+I;Y;185;icon3.gif;15;15;N;ICON_IDEA;
+I;Y;190;icon4.gif;15;15;N;ICON_ATTANSION;
+I;Y;195;icon5.gif;15;15;N;ICON_QUESTION;
+I;Y;200;icon6.gif;15;15;N;ICON_BAD;
+I;Y;205;icon7.gif;15;15;N;ICON_GOOD;

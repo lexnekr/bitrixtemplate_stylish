@@ -11,6 +11,7 @@ HTML Шаблон (Bootstrap) интегрирован Задойным А.В. �
 * [5 Урок](http://кофедизайн.рф/information/integration_of_adaptive_bootstrap_site_template_in_1C-Bitrix_steps_lesson_5/) - Меню
 * [6 Урок](http://кофедизайн.рф/information/integration_of_adaptive_bootstrap_site_template_in_1C-Bitrix_steps_lesson_6/) - Форма подписки (3 методами)
 * [7 Урок](http://кофедизайн.рф/information/integration_adaptive_bootstrap_site_template_in_1c_bitrix_step_lesson_7/) - Тизерные блоки (на инфоблоках)
+* [8 Урок](http://кофедизайн.рф/information/integration_adaptive_bootstrap_site_template_in_1c_bitrix_step_lesson_8/) - Список новостей на главной
 
 
 ![Alt text](https://raw2.github.com/lexnekr/bitrixtemplate_stylish/master/bitrix/templates/stylish/screen.gif)
@@ -20,6 +21,7 @@ HTML Шаблон (Bootstrap) интегрирован Задойным А.В. �
 -------
 * Компонент bitrix:news.list - шаблон main_slider (слайдер баннеров из инфоблока)
 * Компонент bitrix:news.list - шаблон teasers (тизерные блоки из инфоблока)
+* Компонент bitrix:news.list - шаблон main_page_newslist (список новостей на главной)
 * Компонент bitrix:search.form - шаблон top (форма поиска для шапки)
 * Компонент bitrix:menu - шаблон top (верхнее меню с социльными иконками)
 * Компонент bitrix:menu - шаблон bottom (нижнее меню)
@@ -41,7 +43,7 @@ HTML Шаблон (Bootstrap) интегрирован Задойным А.В. �
 
 * MAIN_SLIDER
 * TEASERS
-
+* NEWS
 
 
 Входящие в шаблон Компонеты
