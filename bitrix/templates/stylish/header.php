@@ -158,63 +158,16 @@ false
 <section id="content" class="main-content">
 <div class="sub-content">
   <div class="container">
-    <div class="row">
-      <div class="span12">        
-        <ul class="thumbnails">
-          <li class="span3">
-            <div class="thumbnail">
-              <div class="caption">
-              	<img src="<?=SITE_TEMPLATE_PATH?>/img/img-1.png" alt="">
-                <h5>Most</h5>
-                <h3>popular</h3>
-              </div>  
-              <div class="thumbnail-pad">
-                  <p>Praesent vestibulum molestie lacus. Aenean noy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. </p>
-                  <a href="#" class="btn btn_">more info</a>
-              </div>
-            </div>
-          </li>
-          <li class="span3">
-            <div class="thumbnail">
-              <div class="caption">
-              	<img src="<?=SITE_TEMPLATE_PATH?>/img/img-2.png" alt="">
-                <h5>Beauty</h5>
-                <h3>Gifts</h3>
-              </div>  
-              <div class="thumbnail-pad">
-                  <p>Praesent vestibulum molestie lacus. Aenean my hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. </p>
-                  <a href="#" class="btn btn_">more info</a>
-              </div>
-            </div>
-          </li>
-          <li class="span3">
-            <div class="thumbnail">
-              <div class="caption">
-              	<img src="<?=SITE_TEMPLATE_PATH?>/img/img-3.png" alt="">
-                <h5>Attention</h5>
-                <h3>to Detail</h3>
-              </div>  
-              <div class="thumbnail-pad">
-                  <p>Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suipit varius mi. Cum sociis natoque penatibus et.</p>
-                  <a href="#" class="btn btn_">more info</a>
-              </div>
-            </div>
-          </li>
-          <li class="span3">
-            <div class="thumbnail">
-              <div class="caption">
-              	<img src="<?=SITE_TEMPLATE_PATH?>/img/img-4.png" alt="">
-                <h5>Award-Winning</h5>
-                <h3>Fragrances</h3>
-              </div>
-              <div class="thumbnail-pad">  
-                  <p>Nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis.</p>
-                  <a href="#" class="btn btn_">more info</a>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
+
+<?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	Array(
+		"AREA_FILE_SHOW" => "page",
+		"AREA_FILE_SUFFIX" => "teasers",
+		"EDIT_TEMPLATE" => ""
+	)
+);?>
+  
     <div class="row">
 
