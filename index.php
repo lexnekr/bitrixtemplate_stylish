@@ -96,8 +96,61 @@ $APPLICATION->SetTitle("Главная страница");
 	),
 	false
 );?>
-            <h4 class="indent-1">testimonials:</h4>
-			<p class="p1">Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada.”</p>
-            <span class="clr"><strong>Mark Priston</strong>, <a href="#" class="link-2">demolink.org</a></span>
+<?$APPLICATION->IncludeComponent("bitrix:news.list", "random_testimonials_on_main", array(
+	"IBLOCK_TYPE" => "-",
+	"IBLOCK_ID" => "TESTIMONIALS",
+	"NEWS_COUNT" => "2",
+	"SORT_BY1" => "RAND",
+	"SORT_ORDER1" => "DESC",
+	"SORT_BY2" => "SORT",
+	"SORT_ORDER2" => "ASC",
+	"FILTER_NAME" => "",
+	"FIELD_CODE" => array(
+		0 => "",
+		1 => "",
+	),
+	"PROPERTY_CODE" => array(
+		0 => "",
+		1 => "TESTIMONIAL_PERSON_POST",
+		2 => "TESTIMONIAL_PERSON_COMPANY",
+		3 => "TESTIMONIAL_PERSON_SITE",
+		4 => "",
+	),
+	"CHECK_DATES" => "Y",
+	"DETAIL_URL" => "",
+	"AJAX_MODE" => "N",
+	"AJAX_OPTION_JUMP" => "N",
+	"AJAX_OPTION_STYLE" => "N",
+	"AJAX_OPTION_HISTORY" => "N",
+	"CACHE_TYPE" => "N",
+	"CACHE_TIME" => "36000000",
+	"CACHE_FILTER" => "N",
+	"CACHE_GROUPS" => "Y",
+	"PREVIEW_TRUNCATE_LEN" => "",
+	"ACTIVE_DATE_FORMAT" => "d.m.Y",
+	"SET_TITLE" => "N",
+	"SET_STATUS_404" => "N",
+	"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+	"ADD_SECTIONS_CHAIN" => "N",
+	"HIDE_LINK_WHEN_NO_DETAIL" => "N",
+	"PARENT_SECTION" => "",
+	"PARENT_SECTION_CODE" => "",
+	"INCLUDE_SUBSECTIONS" => "Y",
+	"DISPLAY_TOP_PAGER" => "N",
+	"DISPLAY_BOTTOM_PAGER" => "N",
+	"PAGER_TITLE" => "Новости",
+	"PAGER_SHOW_ALWAYS" => "N",
+	"PAGER_TEMPLATE" => "",
+	"PAGER_DESC_NUMBERING" => "N",
+	"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+	"PAGER_SHOW_ALL" => "N",
+	"USE_LINKS" => "Y",
+	"TESTIMONIALS_TITLE" => "Рекомендации",
+	"USE_LINKS_NOFOLLOW" => "Y",
+	"USE_LINKS_BLANK" => "Y",
+	"AJAX_OPTION_ADDITIONAL" => ""
+	),
+	false
+);?>
         </div>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
