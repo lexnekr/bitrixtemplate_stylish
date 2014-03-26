@@ -105,12 +105,35 @@ $APPLICATION->SetTitle("Главная страница");
 );?>
 
 
+<?$APPLICATION->IncludeComponent("coffeediz:elements_and_categories.list", ".default", array(
+	"2_COL_TITLE" => "Пример смешанного 2-х колоночного списка",
+	"2_COL_INTRO_TEXT" => "Этот компонент может выводить как списки элементов, так разделов, и оба типа данных одновременно.",
+	"2_COL_MORE_NAME" => "Ещё",
+	"2_COL_MORE_LINK" => "#",
+	"1COLUMN_TYPE" => "COLUMN_TYPE_CATEGORY",
+	"2COLUMN_TYPE" => "COLUMN_TYPE_ELEMENT",
+	"CACHE_TYPE" => "A",
+	"CACHE_TIME" => "36000000",
+	"CACHE_FILTER" => "N",
+	"CACHE_GROUPS" => "Y",
+	"1COLUMN_IBLOCK_TYPE" => "Content",
+	"1COLUMN_IBLOCK_ID" => "3",
+	"1COLUMN_COUNT_ELEMENTS" => "Y",
+	"1COLUMN_TOP_DEPTH" => "3",
+	"2COLUMN_IBLOCK_TYPE" => "Content",
+	"2COLUMN_IBLOCK_ID" => "3",
+	"2COLUMN_NEWS_COUNT" => "10"
+	),
+	false
+);?>
+
+
         </div>    
         <div class="span4">
 <?$APPLICATION->IncludeComponent("bitrix:news.list", "main_page_newslist", array(
 	"IBLOCK_TYPE" => "-",
 	"IBLOCK_ID" => "NEWS",
-	"NEWS_COUNT" => "5",
+	"NEWS_COUNT" => "10",
 	"SORT_BY1" => "ACTIVE_FROM",
 	"SORT_ORDER1" => "DESC",
 	"SORT_BY2" => "SORT",
