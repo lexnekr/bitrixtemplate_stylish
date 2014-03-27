@@ -14,7 +14,9 @@ HTML Шаблон (Bootstrap) интегрирован Задойным А.В. �
 * [8 Урок](http://кофедизайн.рф/information/integration_adaptive_bootstrap_site_template_in_1c_bitrix_step_lesson_8/) - Список новостей на главной
 * [9 Урок](http://кофедизайн.рф/information/integration_adaptive_bootstrap_site_template_in_1C-Bitrix_step_lesson_9/) - Случайный отзыв на главной
 * [10 Урок](http://кофедизайн.рф/information/integration_adaptive_bootstrap_site_template_in_1c_bitrix_step_lesson_10/) - 2-х колоночный список 2 способами (список разделов и список элементов ИБ)
-* [10+ Урок](http:/кофедизайн.рф//information/additional_workshop_on_integration_of_adaptive_Twitte_Bootstrap_site_template_in_1C-Bitrix_10_plus/) - собственный компонент 2-х колоночного списка элементов и\или разделов ИБ
+* [10+ Урок](http:/кофедизайн.рф/information/additional_workshop_on_integration_of_adaptive_Twitte_Bootstrap_site_template_in_1C-Bitrix_10_plus/) - собственный компонент 2-х колоночного списка элементов и\или разделов ИБ
+* [11 Урок](http://кофедизайн.рф/information/integration_adaptive_twitte-Bootstrap_site_template_in_1C-Bitrix_step_by_step_lesson_11/) - Страница 404 ошибки
+
 
 
 ![Alt text](https://raw2.github.com/lexnekr/bitrixtemplate_stylish/master/bitrix/templates/stylish/screen.gif)
@@ -29,6 +31,7 @@ HTML Шаблон (Bootstrap) интегрирован Задойным А.В. �
 * Компонент bitrix:news.list - шаблон 2_columns (2х колоночный список элементов инфоблока)
 * Компонент bitrix:news.list - шаблон 1_column (1 колоночный список названий элементов инфоблока)
 * Компонент bitrix:search.form - шаблон top (форма поиска для шапки)
+* Компонент bitrix:search.form - шаблон stylish (универсальная форма поиска)
 * Компонент bitrix:menu - шаблон top (верхнее меню с социльными иконками)
 * Компонент bitrix:menu - шаблон bottom (нижнее меню)
 * Компонент asd:subscribe.quick.form - шаблон bottom (БЫСТРАЯ Форма E-mail подписки)
