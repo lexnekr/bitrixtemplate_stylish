@@ -6,7 +6,7 @@ HTML Шаблон (Bootstrap) интегрирован Задойным А.В. �
 * [0 Урок](http://кофедизайн.рф/information/integratsiya_adaptivnogo_bootstrap_v_1C_bitrix_po_shagam_urok_0/) - Разметка
 * [1 Урок](http://кофедизайн.рф/information/integratsiya_adaptivnogo_bootstrap_shablona_sayta_v_1C_Bitrix_po_shagam_urok_1/) - Первичная интеграция (статика)
 * [2 Урок](http://кофедизайн.рф/information/integratsiya_adaptivnogo_bootstrap_shablona_sayta_v_1s_bitriks_po_shagam_urok_2/) - Включаемые области
-* [3 Урок](http://кофедизайн.рф/information/integratsiya_adaptivnogo_bootstrap_v_1C_bitrix_po_shagam_urok_0/) - Слайдер
+* [3 Урок](http://кофедизайн.рф/information/integration_of_adaptive_bootstrap_site_template_in_1c_bitrix_steps_lesson_3/) - Слайдер
 * [4 Урок](http://кофедизайн.рф/information/integration_of_adaptive_bootstrap_site_template_in_1C-Bitrix_steps_lesson_4/) - Форма поиска для шапки
 * [5 Урок](http://кофедизайн.рф/information/integration_of_adaptive_bootstrap_site_template_in_1C-Bitrix_steps_lesson_5/) - Меню
 * [6 Урок](http://кофедизайн.рф/information/integration_of_adaptive_bootstrap_site_template_in_1C-Bitrix_steps_lesson_6/) - Форма подписки (3 методами)
